@@ -770,7 +770,7 @@ section,
   padding: 0;
 }
 
-.hero .carousel {
+.hero .carouselll {
   width: 100%;
   min-height: calc(100vh - 90px);
   padding: 0;
@@ -780,7 +780,7 @@ section,
 }
 
 @media (max-width: 1200px) {
-  .hero .carousel {
+  .hero .carouselll {
     min-height: calc(100vh - 66px);
   }
 }
@@ -795,7 +795,7 @@ section,
   z-index: 1;
 }
 
-.hero .carousel-item {
+.hero .carouselll-item {
   position: absolute;
   inset: 0;
   background-size: cover;
@@ -804,7 +804,7 @@ section,
   overflow: hidden;
 }
 
-.hero .carousel-item:before {
+.hero .carouselll-item:before {
   content: "";
   background: color-mix(in srgb, var(--background-color), transparent 100%);
   position: absolute;
@@ -812,7 +812,7 @@ section,
   z-index: 2;
 }
 
-.hero .carousel-container {
+.hero .carouselll-container {
   position: absolute;
   inset: 90px 64px 64px 64px;
   display: flex;
@@ -866,42 +866,42 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
-.hero .carousel-control-prev,
-.hero .carousel-control-next {
+.hero .carouselll-control-prev,
+.hero .carouselll-control-next {
   width: 10%;
   transition: 0.3s;
   opacity: 0.5;
 }
 
-.hero .carousel-control-prev:focus,
-.hero .carousel-control-next:focus {
+.hero .carouselll-control-prev:focus,
+.hero .carouselll-control-next:focus {
   opacity: 0.5;
 }
 
-.hero .carousel-control-prev:hover,
-.hero .carousel-control-next:hover {
+.hero .carouselll-control-prev:hover,
+.hero .carouselll-control-next:hover {
   opacity: 0.9;
 }
 
 @media (min-width: 1024px) {
 
-  .hero .carousel-control-prev,
-  .hero .carousel-control-next {
+  .hero .carouselll-control-prev,
+  .hero .carouselll-control-next {
     width: 5%;
   }
 }
 
-.hero .carousel-control-next-icon,
-.hero .carousel-control-prev-icon {
+.hero .carouselll-control-next-icon,
+.hero .carouselll-control-prev-icon {
   font-size: 32px;
   line-height: 1;
 }
 
-.hero .carousel-indicators {
+.hero .carouselll-indicators {
   list-style: none;
 }
 
-.hero .carousel-indicators li {
+.hero .carouselll-indicators li {
   cursor: pointer;
 }
 
